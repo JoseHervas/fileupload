@@ -18,9 +18,9 @@ app.post('/upload', (req, res) => {
         }
 
         cloudinary.config({
-            cloud_name: 'dpkog1c9p',
-            api_key: '145974331713327',
-            api_secret: 'rKw1Hti1fNlfAYA0Yi5v6XwMKSk'
+            cloud_name: 'YOUR-CLOUD-NAME',
+            api_key: 'YOUR-API-KEY',
+            api_secret: 'YOUR-API-SECRET'
         })
 
         const path = req.file.path
